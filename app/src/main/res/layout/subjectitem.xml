@@ -1,0 +1,48 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:padding="10dp" >
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:padding="6dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+    <TextView
+        android:id="@+id/subjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/washedWhite"
+        android:text="Placeholder"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        />
+        </LinearLayout>
+        <ImageButton
+            android:id="@+id/subDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="5dp"
+
+            android:src="@drawable/ic_delete_black_24dp"
+            android:text="Delete" />
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

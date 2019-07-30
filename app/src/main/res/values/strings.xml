@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Attendance</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+    <string name="playStore"><a href="https://play.google.com/store/apps/developer?id=SHAR" >Other Apps</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

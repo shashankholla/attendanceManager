@@ -1,0 +1,21 @@
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+android:textAlignment="gravity"
+    android:background="?attr/colorPrimary"
+    local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+    local:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:background="#00FFFFFF"
+        android:id="@+id/info"
+        android:src="@drawable/ic_info_outline_black_24dp"/>
+
+</android.support.v7.widget.Toolbar>
